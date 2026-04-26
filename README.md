@@ -18,9 +18,10 @@ This repository demonstrates a modular, production-ready Machine Learning pipeli
 To ensure the pipeline is working correctly and data is clean, run the unit tests:
 ```bash
 python -m pytest -v
-
+```
 ##  API Deployment (FastAPI)
 The model is deployed as a RESTful API using **FastAPI** to be consumed by front-end applications.
 To start the API server:
 ```bash
 uvicorn src.app:app --reload
+
